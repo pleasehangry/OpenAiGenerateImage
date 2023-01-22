@@ -23,7 +23,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("https://dalle-arbb.onrender.com/api/v1/post", {
+      const res = await fetch("http://localhost:8080/api/v1/post", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
